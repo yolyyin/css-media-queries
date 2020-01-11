@@ -1,0 +1,75 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 10px;
+  text-align: center;
+  width:100%;
+}
+
+.container{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  padding: 0.7%;
+}
+
+.title{
+  margin: 30px auto 30px auto;
+  font-size:1.4em;
+  font-family: arial,sans-serif;
+  text-transform: uppercase;
+}
+
+div{
+  font-family: garamond,times,serif;
+  font-size:2em;
+  font-weight: bold;
+  width: 480px;
+  height: 320px;
+  padding: 30px;
+  margin: 0.7% auto;
+  text-align: left;
+}
+
+.baku{
+  background-color: #dadada;
+  background-image: url("/images/baku.jpg");
+  background-repeat: no-repeat;
+}
+
+.london{
+  background-color: #dadada;
+  background-image: url("/images/london.jpg");
+  background-repeat: no-repeat;
+}
+
+.madrid{
+  background-color: #dadada;
+  background-image: url("/images/madrid.jpg");
+  background-repeat: no-repeat;
+}
+
+.rome{
+  background-color: #dadada;
+  background-image: url("/images/rome.jpg");
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width:575px) {
+  div{
+    float: left;
+    margin: 0.7%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width:991px) {
+  div{
+    float: left;
+    margin: 0.7%;
+    width: 23.6%;
+  }
+}
