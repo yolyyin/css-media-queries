@@ -36,25 +36,25 @@ div{
 
 .baku{
   background-color: #dadada;
-  background-image: url("/images/baku.jpg");
+  background-image: url("../images/baku.jpg");
   background-repeat: no-repeat;
 }
 
 .london{
   background-color: #dadada;
-  background-image: url("/images/london.jpg");
+  background-image: url("../images/london.jpg");
   background-repeat: no-repeat;
 }
 
 .madrid{
   background-color: #dadada;
-  background-image: url("/images/madrid.jpg");
+  background-image: url("../images/madrid.jpg");
   background-repeat: no-repeat;
 }
 
 .rome{
   background-color: #dadada;
-  background-image: url("/images/rome.jpg");
+  background-image: url("../images/rome.jpg");
   background-repeat: no-repeat;
 }
 
